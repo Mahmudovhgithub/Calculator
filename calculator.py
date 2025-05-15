@@ -3,7 +3,7 @@ from tkinter import messagebox
 import re
 
 def safe_eval(expression):
-    # Only allow numbers, operators, and parentheses
+ 
     if not re.match(r'^[0-9+\-*/(). ]+$', expression):
         raise ValueError("Invalid characters in input")
     return eval(expression)
@@ -23,7 +23,6 @@ def on_click(button_text):
     else:
         entry.insert(tk.END, button_text)
 
-# Create the main window
 root = tk.Tk()
 root.title("Calculator")
 
