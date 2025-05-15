@@ -1,0 +1,1 @@
+Salam burda edərsiniz feedback i zəhmət olmazsa
